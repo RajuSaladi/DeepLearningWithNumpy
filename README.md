@@ -1,4 +1,4 @@
-# DeepLearningWithNumpy
+# DeepNumpy
 This repository contains code to implement Machine/Deep Learning functionalities using Numpy Python
 
 Layers, Activation functions, Forward and Back Propagations are implemented in deepnumpy and made it available as a package
