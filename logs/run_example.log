@@ -1,0 +1,318 @@
+22:41:18,934 __main__ INFO Output class Distribution: 
+1    2500
+0    2500
+Name: label, dtype: int64
+22:41:18,934 __main__ INFO Input shape: (5000, 2)
+22:41:18,934 __main__ INFO output shape: (5000,)
+22:41:18,934 __main__ INFO Model Summary: 
+Layer : 0 Linear Layer Weights, (2, 5) Bias (5, 1)
+Layer : 1 ReLU Layer
+Layer : 2 Linear Layer Weights, (5, 2) Bias (2, 1)
+Layer : 3 ReLU Layer
+Layer : 4 Linear Layer Weights, (2, 1) Bias (1, 1)
+Layer : 5 Sigmoid Layer
+
+22:41:18,934 __main__ INFO Model training started
+22:41:18,934 deepnumpy.model._model INFO Training Specs: 
+Learning Rate: 0.01 
+Maximum Epochs Limit: 1000 
+Loss Function: BinaryCrossEntropy 
+Metrics Function: ClassificationMetrics 
+Train Test Split Ratio Function: 0.8 
+Early Stopping: {'val_loss': ('inc', 5)} 
+
+22:41:18,934 root INFO Data splitting into 4000 Train and 1000 test data points
+22:41:19,195 deepnumpy.model._model INFO Epoch: 0. Training Loss: 1.0537516616012408
+22:41:19,196 deepnumpy.model._model INFO Validation Loss: 1.0584474198037979
+22:41:20,190 root INFO ROC AUC Score: 0.518992
+22:41:20,190 root INFO Optimal Threshold: 0.0
+22:41:20,193 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:20,193 root INFO Precison: 0.491
+22:41:20,193 root INFO Recall: 1.0
+22:41:20,193 root INFO F1 Score: 0.658618376928236
+22:41:22,252 deepnumpy.model._model INFO Epoch: 10. Training Loss: 0.944339385587789
+22:41:22,252 deepnumpy.model._model INFO Validation Loss: 0.9498753096037232
+22:41:22,919 root INFO ROC AUC Score: 0.522521
+22:41:22,920 root INFO Optimal Threshold: 0.0
+22:41:22,922 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:22,922 root INFO Precison: 0.491
+22:41:22,922 root INFO Recall: 1.0
+22:41:22,922 root INFO F1 Score: 0.658618376928236
+22:41:24,876 deepnumpy.model._model INFO Epoch: 20. Training Loss: 0.8650209094685833
+22:41:24,877 deepnumpy.model._model INFO Validation Loss: 0.8705910681373278
+22:41:25,577 root INFO ROC AUC Score: 0.5278849999999999
+22:41:25,577 root INFO Optimal Threshold: 0.0
+22:41:25,579 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:25,579 root INFO Precison: 0.491
+22:41:25,579 root INFO Recall: 1.0
+22:41:25,579 root INFO F1 Score: 0.658618376928236
+22:41:27,564 deepnumpy.model._model INFO Epoch: 30. Training Loss: 0.8075780206218972
+22:41:27,565 deepnumpy.model._model INFO Validation Loss: 0.8128473861531914
+22:41:28,325 root INFO ROC AUC Score: 0.5336869999999999
+22:41:28,325 root INFO Optimal Threshold: 0.0
+22:41:28,328 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:28,328 root INFO Precison: 0.491
+22:41:28,328 root INFO Recall: 1.0
+22:41:28,328 root INFO F1 Score: 0.658618376928236
+22:41:30,315 deepnumpy.model._model INFO Epoch: 40. Training Loss: 0.7671445373067224
+22:41:30,316 deepnumpy.model._model INFO Validation Loss: 0.7719174617532327
+22:41:31,10 root INFO ROC AUC Score: 0.5427130000000001
+22:41:31,10 root INFO Optimal Threshold: 0.0
+22:41:31,13 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:31,13 root INFO Precison: 0.491
+22:41:31,14 root INFO Recall: 1.0
+22:41:31,14 root INFO F1 Score: 0.658618376928236
+22:41:33,64 deepnumpy.model._model INFO Epoch: 50. Training Loss: 0.7397987068183683
+22:41:33,64 deepnumpy.model._model INFO Validation Loss: 0.7439378493737197
+22:41:33,823 root INFO ROC AUC Score: 0.593469
+22:41:33,823 root INFO Optimal Threshold: 0.0
+22:41:33,826 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:33,826 root INFO Precison: 0.491
+22:41:33,826 root INFO Recall: 1.0
+22:41:33,826 root INFO F1 Score: 0.658618376928236
+22:41:35,892 deepnumpy.model._model INFO Epoch: 60. Training Loss: 0.7220727270230338
+22:41:35,892 deepnumpy.model._model INFO Validation Loss: 0.7254939540352632
+22:41:36,573 root INFO ROC AUC Score: 0.673037
+22:41:36,573 root INFO Optimal Threshold: 0.0
+22:41:36,575 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:36,575 root INFO Precison: 0.491
+22:41:36,576 root INFO Recall: 1.0
+22:41:36,576 root INFO F1 Score: 0.658618376928236
+22:41:38,530 deepnumpy.model._model INFO Epoch: 70. Training Loss: 0.7110473997836122
+22:41:38,530 deepnumpy.model._model INFO Validation Loss: 0.7137242679530927
+22:41:39,202 root INFO ROC AUC Score: 0.573888
+22:41:39,202 root INFO Optimal Threshold: 0.0
+22:41:39,205 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:39,205 root INFO Precison: 0.491
+22:41:39,205 root INFO Recall: 1.0
+22:41:39,205 root INFO F1 Score: 0.658618376928236
+22:41:41,173 deepnumpy.model._model INFO Epoch: 80. Training Loss: 0.7044664907530562
+22:41:41,174 deepnumpy.model._model INFO Validation Loss: 0.7064232472244927
+22:41:41,961 root INFO ROC AUC Score: 0.55842
+22:41:41,961 root INFO Optimal Threshold: 0.0
+22:41:41,965 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:41,965 root INFO Precison: 0.491
+22:41:41,965 root INFO Recall: 1.0
+22:41:41,965 root INFO F1 Score: 0.658618376928236
+22:41:44,1 deepnumpy.model._model INFO Epoch: 90. Training Loss: 0.7007153308112478
+22:41:44,1 deepnumpy.model._model INFO Validation Loss: 0.7020111865136097
+22:41:44,677 root INFO ROC AUC Score: 0.5380670000000001
+22:41:44,678 root INFO Optimal Threshold: 0.0
+22:41:44,680 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:44,680 root INFO Precison: 0.491
+22:41:44,680 root INFO Recall: 1.0
+22:41:44,680 root INFO F1 Score: 0.658618376928236
+22:41:46,651 deepnumpy.model._model INFO Epoch: 100. Training Loss: 0.6987043041949955
+22:41:46,651 deepnumpy.model._model INFO Validation Loss: 0.6994168177814338
+22:41:47,321 root INFO ROC AUC Score: 0.5412079999999999
+22:41:47,322 root INFO Optimal Threshold: 0.0
+22:41:47,324 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:47,324 root INFO Precison: 0.491
+22:41:47,324 root INFO Recall: 1.0
+22:41:47,324 root INFO F1 Score: 0.658618376928236
+22:41:49,290 deepnumpy.model._model INFO Epoch: 110. Training Loss: 0.6977289256335409
+22:41:49,290 deepnumpy.model._model INFO Validation Loss: 0.6979410546657489
+22:41:50,17 root INFO ROC AUC Score: 0.532669
+22:41:50,17 root INFO Optimal Threshold: 0.0
+22:41:50,20 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:50,20 root INFO Precison: 0.491
+22:41:50,20 root INFO Recall: 1.0
+22:41:50,20 root INFO F1 Score: 0.658618376928236
+22:41:52,116 deepnumpy.model._model INFO Epoch: 120. Training Loss: 0.697348068604063
+22:41:52,116 deepnumpy.model._model INFO Validation Loss: 0.6971398446354891
+22:41:52,799 root INFO ROC AUC Score: 0.5400710000000001
+22:41:52,799 root INFO Optimal Threshold: 0.0
+22:41:52,802 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:52,802 root INFO Precison: 0.491
+22:41:52,802 root INFO Recall: 1.0
+22:41:52,802 root INFO F1 Score: 0.658618376928236
+22:41:54,770 deepnumpy.model._model INFO Epoch: 130. Training Loss: 0.6972926815457181
+22:41:54,770 deepnumpy.model._model INFO Validation Loss: 0.6967367134232867
+22:41:55,452 root INFO ROC AUC Score: 0.5347250000000001
+22:41:55,452 root INFO Optimal Threshold: 0.0
+22:41:55,455 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:55,455 root INFO Precison: 0.491
+22:41:55,455 root INFO Recall: 1.0
+22:41:55,455 root INFO F1 Score: 0.658618376928236
+22:41:57,452 deepnumpy.model._model INFO Epoch: 140. Training Loss: 0.697402725889542
+22:41:57,452 deepnumpy.model._model INFO Validation Loss: 0.6965623316925432
+22:41:58,194 root INFO ROC AUC Score: 0.531523
+22:41:58,194 root INFO Optimal Threshold: 0.0
+22:41:58,197 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:41:58,197 root INFO Precison: 0.491
+22:41:58,197 root INFO Recall: 1.0
+22:41:58,197 root INFO F1 Score: 0.658618376928236
+22:42:00,165 deepnumpy.model._model INFO Epoch: 150. Training Loss: 0.6975856651412232
+22:42:00,166 deepnumpy.model._model INFO Validation Loss: 0.6965146013360802
+22:42:00,863 root INFO ROC AUC Score: 0.5289159999999999
+22:42:00,863 root INFO Optimal Threshold: 0.0
+22:42:00,866 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:00,866 root INFO Precison: 0.491
+22:42:00,866 root INFO Recall: 1.0
+22:42:00,866 root INFO F1 Score: 0.658618376928236
+22:42:02,869 deepnumpy.model._model INFO Epoch: 160. Training Loss: 0.6977899598708778
+22:42:02,870 deepnumpy.model._model INFO Validation Loss: 0.6965330167887962
+22:42:03,545 root INFO ROC AUC Score: 0.5274200000000001
+22:42:03,545 root INFO Optimal Threshold: 0.0
+22:42:03,548 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:03,548 root INFO Precison: 0.491
+22:42:03,548 root INFO Recall: 1.0
+22:42:03,548 root INFO F1 Score: 0.658618376928236
+22:42:03,782 root INFO Identified Early Stopping condition. Counter incremented
+22:42:05,500 deepnumpy.model._model INFO Epoch: 170. Training Loss: 0.6979884934564055
+22:42:05,500 deepnumpy.model._model INFO Validation Loss: 0.6965824910229578
+22:42:06,190 root INFO ROC AUC Score: 0.5263799999999998
+22:42:06,190 root INFO Optimal Threshold: 0.0
+22:42:06,193 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:06,193 root INFO Precison: 0.491
+22:42:06,193 root INFO Recall: 1.0
+22:42:06,193 root INFO F1 Score: 0.658618376928236
+22:42:06,442 root INFO Identified Early Stopping condition. Counter incremented
+22:42:08,159 deepnumpy.model._model INFO Epoch: 180. Training Loss: 0.6981683731846936
+22:42:08,160 deepnumpy.model._model INFO Validation Loss: 0.6966432817580015
+22:42:08,832 root INFO ROC AUC Score: 0.523984
+22:42:08,832 root INFO Optimal Threshold: 0.0
+22:42:08,837 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:08,837 root INFO Precison: 0.491
+22:42:08,837 root INFO Recall: 1.0
+22:42:08,837 root INFO F1 Score: 0.658618376928236
+22:42:09,139 root INFO Identified Early Stopping condition. Counter incremented
+22:42:10,865 deepnumpy.model._model INFO Epoch: 190. Training Loss: 0.6983247444924853
+22:42:10,866 deepnumpy.model._model INFO Validation Loss: 0.696704780474181
+22:42:11,558 root INFO ROC AUC Score: 0.525712
+22:42:11,558 root INFO Optimal Threshold: 0.0
+22:42:11,561 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:11,561 root INFO Precison: 0.491
+22:42:11,561 root INFO Recall: 1.0
+22:42:11,561 root INFO F1 Score: 0.658618376928236
+22:42:11,795 root INFO Identified Early Stopping condition. Counter incremented
+22:42:13,514 deepnumpy.model._model INFO Epoch: 200. Training Loss: 0.6984570959917301
+22:42:13,514 deepnumpy.model._model INFO Validation Loss: 0.6967617185411141
+22:42:14,187 root INFO ROC AUC Score: 0.534523
+22:42:14,187 root INFO Optimal Threshold: 0.0
+22:42:14,190 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:14,190 root INFO Precison: 0.491
+22:42:14,190 root INFO Recall: 1.0
+22:42:14,190 root INFO F1 Score: 0.658618376928236
+22:42:14,425 root INFO Identified Early Stopping condition. Counter incremented
+22:42:16,162 deepnumpy.model._model INFO Epoch: 210. Training Loss: 0.6985670925938935
+22:42:16,163 deepnumpy.model._model INFO Validation Loss: 0.6968118725262236
+22:42:16,854 root INFO ROC AUC Score: 0.533301
+22:42:16,854 root INFO Optimal Threshold: 0.0
+22:42:16,857 root INFO 
+ 	 ******** 	 Confusion Matrix 	 ******** 
+Actual\Prediction 	 Positive 	 Negetive 
+Positive 	 491000 	 0 
+Negative 	 509000 	 0 
+
+22:42:16,857 root INFO Precison: 0.491
+22:42:16,857 root INFO Recall: 1.0
+22:42:16,857 root INFO F1 Score: 0.658618376928236
+22:42:17,80 root INFO Identified Early Stopping condition. Counter incremented
+22:42:17,80 root INFO Training stopped due to satisfied early stopping condition at 210 epoch
+22:42:17,80 __main__ INFO Model trained successfully
